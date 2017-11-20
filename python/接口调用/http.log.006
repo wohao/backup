@@ -1,0 +1,7 @@
+[2017-07-27 14:16:37:262   INFO] curl_global_init Start
+[2017-07-27 14:16:37:264  DEBUG] httpSend2 Start:GET	http://192.168.2.130:8080/amol-back/oauth/token?client_id=amol_client_mbox&client_secret=amol_secret_mbox&grant_type=password&username=mbox&password=123456
+[2017-07-27 14:16:37:318  DEBUG] httpSend2 Finish:GET	http://192.168.2.130:8080/amol-back/oauth/token?client_id=amol_client_mbox&client_secret=amol_secret_mbox&grant_type=password&username=mbox&password=123456
+[2017-07-27 14:16:37:324   INFO] SearchWorklist Start:http://192.168.2.130:8080/amol-back/webs/getWorklist?access_token=be4c3a8c-cb85-4c23-be1f-d7d12d7041fd&lang=zh_CN;datas={"ae":"MODALITY-39","armariumIp":"192.168.1.39","armariumPort":"0","isAll":"Y","serialNumber":"C27389E8C2C5F38686DA5BE5FEF9C59W"}
+[2017-07-27 14:16:37:324  DEBUG] httpSend1 Start:POST	http://192.168.2.130:8080/amol-back/webs/getWorklist?access_token=be4c3a8c-cb85-4c23-be1f-d7d12d7041fd&lang=zh_CN
+[2017-07-27 14:16:37:847  DEBUG] httpSend1 Finish:POST	http://192.168.2.130:8080/amol-back/webs/getWorklist?access_token=be4c3a8c-cb85-4c23-be1f-d7d12d7041fd&lang=zh_CN
+[2017-07-27 14:16:37:849   INFO] SearchWorklist Finish:http://192.168.2.130:8080/amol-back/webs/getWorklist?access_token=be4c3a8c-cb85-4c23-be1f-d7d12d7041fd&lang=zh_CN;{"resultCode":"0","isSuccess":true,"resultMsg":"成功获取数据","resultDatas":"[]"}
